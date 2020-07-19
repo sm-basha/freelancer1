@@ -1,0 +1,107 @@
+body{
+font-family: 'Baloo Da 2', cursive;
+}
+h4{line-height: 2.5rem;}
+.name h1{
+    font-size: 5rem;
+    color: #6CC2AF;
+    margin-bottom: 3rem;
+}
+.name h4{margin-bottom: 6rem;color: #6CC2AF;}
+h5{color: #6CC2AF;}
+
+        /* Name */
+#title{background-color: #E0EBE8;
+}
+
+.name{
+    padding-top: 150px;
+    text-align: center;
+}
+
+#navbar {
+background-color: rgb(224,235,232, 0.3);
+position: fixed;
+top: 0;
+width: 100%;
+display: block;
+transition: top 0.5s;
+}
+
+#navbar a {
+float: left;
+display: block;
+color: #6CC2AF;
+text-align: center;
+padding: 35px;
+text-decoration: none;
+font-size: 1.4rem;
+}
+
+#navbar a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* HI */
+#hi, #i-can-help{text-align: center;padding: 200px;}
+
+/* WHAT I CAN DO */
+.head-name{text-align: center;
+  color: #1E836C;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.what-i-do{padding: 20px 200px;}
+.design-img {float: right; margin: 0 2rem;}
+.design-para, .dev-para{padding: 1rem 4rem 1rem 1rem;}
+ h2{color: #1E836C; margin-bottom: 2.5rem;}
+.develop{margin-top: 8rem;}
+.btn{padding: 1rem;
+   font-size: 1.4rem;
+   margin-top: 2rem;
+  }
+.btn a{  color: #6CC2AF;}
+.btn:hover a{text-decoration: none;color: #fff;}
+/* Footer session */
+
+#footer{
+    text-align: center;
+    padding: 2%;
+    background-color: #C5DED7;
+}
+
+.foot-icon{
+    margin: 2% 1% 3%;
+    color: #6CC2AF;
+}
+/* Media Query */
+
+@media(max-width:990px){
+.name  h1{font-size: 4rem;}
+#navbar a  {text-align: center;
+  padding: 10px;
+    float: none;
+  }
+#navbar{background-color: rgb(224,235,232, 0.8);
+}
+#hi, #i-can-help {
+  padding:100px 50px;
+}
+.what-i-do{padding: 50px;}
+.head-name{font-size: 4rem;}
+h4{font-size: 1.2rem;line-height: 1.5rem;}
+
+
+    }
+
+
+/* font-family: 'Baloo Da 2', cursive;
+@media(max-width:990px){
+
+font-family: 'Rochester', cursive; */
+
+
+
+
+
